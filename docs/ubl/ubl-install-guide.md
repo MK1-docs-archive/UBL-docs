@@ -1,33 +1,32 @@
-# 🔷 How to Install UBL Framework
+# How to Install UBL
 
-Follow these steps to install the **UBL Framework** and start using it in your game.
+Follow these steps to install the **UBL** and start using it in your game.
+
+## UBL is no longer supported nor maintained. If you encounter issues while using it, you are on your own.
 
 ---
 
 ## ⚠️ **Pre-Requisites**
-Before installing UBL, you must have the **MK12TTH** installed.  
-🔗 **[Download MK12TTH from NexusMods](https://www.nexusmods.com/mortalkombat/mods/62)**.
-
-✅ **Make sure MK12TTH is installed and working before proceeding!**
+Before installing UBL, you must have the **[MK12TTH](https://www.nexusmods.com/mortalkombat/mods/62)** installed.  
 
 ---
 
-## 📥 **Step 1: Download UBL**
-1. Download the latest **UBL Framework** from **[NexusMods](https://www.nexusmods.com/mortalkombat/mods/1138/)**.
+## **Step 1: Download UBL**
+1. Download the latest **[UBL](https://www.nexusmods.com/mortalkombat/mods/1138/)**.
 2. Locate your **game’s root folder**:
    - **Steam:** Right-click **Mortal Kombat 1** → **Manage** → **Browse Local Files**.
 
 ---
 
-## 📂 **Step 2: Extract and Install UBL**
+## **Step 2: Extract and Install UBL**
 1. Extract the downloaded **UBL archive**.
 2. Move **all extracted folders** into your **game’s root folder**.
 
-✅ **At this point, UBL is installed, but you still need to configure the game to use it!**
+ **At this point, UBL is installed, but you still need to configure the game to use it!**
 
 ---
 
-## 🛠️ **Step 3: Configure the Game to Use UBL**
+##️ **Step 3: Configure the Game to Use UBL**
 You must tell the game to use the **UBL instances** instead of the default ones.
 
 1. **Navigate to your game's local appdata folder:**  
@@ -50,7 +49,7 @@ You must tell the game to use the **UBL instances** instead of the default ones.
    GameInstanceClass=/Game/UBL/UBLFightingGameInstance.UBLFightingGameInstance_C
    ```
    
-##📂 How to Install UBL Mods
+## How to Install UBL Mods
 
 UBL mods must be placed in the following directory inside your game’s folder:
 
@@ -58,7 +57,7 @@ UBL mods must be placed in the following directory inside your game’s folder:
 MK12/Content/Paks/BPMods
 ```
 
-### 📌 **Steps to Install a Mod**
+### **Steps to Install a Mod**
 1. **Download a UBL-compatible mod.**  
 2. **Extract the mod files** 
 3. **Move the following files into the `BPMods` folder**:
@@ -66,4 +65,4 @@ MK12/Content/Paks/BPMods
    - `.ucas`
    - `.utoc`
 
-✅ **The mod should now be loaded when you launch the game!** 🎮
+**The mod should now be loaded when you launch the game.**
